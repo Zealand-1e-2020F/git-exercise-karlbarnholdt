@@ -1,0 +1,7 @@
+namespace GitExercise
+{
+    class myClass
+    {
+        
+    }
+}
