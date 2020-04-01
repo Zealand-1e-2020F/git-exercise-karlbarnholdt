@@ -6,9 +6,9 @@ namespace GitExercise
     {
         static void Main(string[] args)
         {
-            MyClass myClass = new MyClass("Ulrik Vinblad", "Chardonnayvej 11", 2900);
+            Person person = new Person("Ulrik Vinblad", "Chardonnayvej 11", 2900);
 
-            Console.WriteLine(myClass);
+            Console.WriteLine(person);
         }
     }
 }

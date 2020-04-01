@@ -1,8 +1,8 @@
 namespace GitExercise
 {
-    class MyClass
+    class Person
     {
-        public MyClass(string navn, string adresse, int postnummer)
+        public Person(string navn, string adresse, int postnummer)
         {
             this.Navn = navn;
             this.Adresse = adresse;
