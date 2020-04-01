@@ -23,5 +23,9 @@ namespace GitExercise
             get;
             set;
         }
+        public override string ToString()
+        {
+            return $"Navnet er {this.Navn}. Adressen er {this.Adresse}, {this.Postnummer}.";
+        }
     }
 }
