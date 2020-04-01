@@ -6,7 +6,9 @@ namespace GitExercise
     {
         static void Main(string[] args)
         {
-            MyClass myclass = new MyClass("Ulrik Vinblad", "Chardonnayvej 11", 2900);
+            MyClass myClass = new MyClass("Ulrik Vinblad", "Chardonnayvej 11", 2900);
+
+            Console.WriteLine(myClass);
         }
     }
 }
