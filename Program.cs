@@ -8,10 +8,7 @@ namespace GitExercise
         {
             Console.WriteLine("Hello World!");
 
-            myClass myclass = new myClass();
-            
-
-
+            myClass myclass = new myClass("Karl", "Svalevej 2", 4300);
         }
     }
 }
