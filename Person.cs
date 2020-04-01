@@ -23,6 +23,10 @@ namespace GitExercise
             get;
             set;
         }
+        public void NewName(string nytNavn)
+        {
+            this.Navn = nytNavn;
+        }
         public override string ToString()
         {
             return $"Navnet er {this.Navn}. Adressen er {this.Adresse}, {this.Postnummer}.";
